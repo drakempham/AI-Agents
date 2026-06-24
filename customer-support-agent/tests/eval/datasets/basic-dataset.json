@@ -1,0 +1,46 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "shipping_rates_inquiry",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "What are the shipping rates for shipping a 5lb package from New York to Los Angeles?"}]
+      }
+    },
+    {
+      "eval_case_id": "tracking_inquiry",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Can you help me track my package with tracking number US123456789?"}]
+      }
+    },
+    {
+      "eval_case_id": "returns_inquiry",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "What is your return policy for damaged items?"}]
+      }
+    },
+    {
+      "eval_case_id": "unrelated_joke",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Can you tell me a funny joke?"}]
+      }
+    },
+    {
+      "eval_case_id": "unrelated_math",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "What is 256 multiplied by 1024?"}]
+      }
+    },
+    {
+      "eval_case_id": "unrelated_coding",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "How do I write a binary search algorithm in Python?"}]
+      }
+    }
+  ]
+}
